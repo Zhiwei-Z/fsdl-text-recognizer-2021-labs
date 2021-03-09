@@ -110,4 +110,6 @@ def main():
 
 
 if __name__ == "__main__":
+    import wandb
+    wandb.init(project="194lab5")
     main()
